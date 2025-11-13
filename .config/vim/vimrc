@@ -1,0 +1,11 @@
+source ~/.config/vim/options.vim
+source ~/.config/vim/keybinds.vim
+source ~/.config/vim/plugins.vim
+
+" Colorscheme stuff
+set background=dark
+
+set laststatus=2
+let g:lightline = {'colorscheme' : 'nordbones'}
+
+colorscheme nordbones
